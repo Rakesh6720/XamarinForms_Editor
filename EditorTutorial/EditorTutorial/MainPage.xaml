@@ -5,9 +5,9 @@
 
     <StackLayout Margin="20,35,20,20">
 		<Editor Placeholder="Enter multi-line text here"
-				HeightRequest="200" 
-				TextChanged="OnEditorTextChanged"
-				Completed="OnEditorCompleted"/>
+				AutoSize="TextChanges"
+				MaxLength="200"
+				IsSpellCheckEnabled="False"/>
 	</StackLayout>
 
 </ContentPage>
